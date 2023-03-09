@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "C:/Users/Marko/projects/weather-app/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []

@@ -1,0 +1,21 @@
+<div class="headers">
+  <h1>Weather-App</h1>
+  <p>This application leverages the RESTful OpenWeather API to dynamically retrieve weather data,
+     and utilizes the versatile Bootstrap CSS framework to style</p>
+  </div>
+  <div class="mycontainer">
+    <div class="card text-white bg-primary m-5" style="max-width: 18rem;">
+      <div class="card-header">
+        <h2>Paracin</h2>
+        <p><img src="{{ iconURL }}" alt="weather image"></p>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Summary: {{ summary }}</p>
+        <p class="card-text">Temperature: {{ temperature }} °C</p>
+        <p class="card-text">Feels like: {{ feelsLikeTemp }} °C</p>
+        <p class="card-text">Pressure: {{ pressure }} hPa</p>
+        <p class="card-text">Humidity: {{ humidity }} %</p>
+
+      </div>
+    </div>
+  </div>
